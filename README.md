@@ -1,4 +1,8 @@
-# cob964633af1b69ac548b9b8e
+# Scrimba Solo Project
+
+## About the App
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!
 
 ## About Scrimba
 
