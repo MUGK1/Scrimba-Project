@@ -1,4 +1,4 @@
-# Scrimba Solo Project (Under Coding until now)
+# Scrimba Solo Project (Under Development)
 
 ## About the App
 
