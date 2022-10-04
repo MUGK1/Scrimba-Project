@@ -73,4 +73,49 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  &__stamp {
+    position: absolute;
+    width: 12rem;
+    top: 0;
+    left: 0;
+    transform: translate(9%, 54%) rotate(-30deg);
+  }
+}
+
+.btnContainer {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  margin-top: 2.4rem;
+
+  &__btnDis,
+  &__btnLike {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
+    transition: box-shadow ease-in-out 0.4s;
+  }
+
+  &__btnLike {
+    margin-left: 1rem;
+  }
+
+  &__btnLike:hover {
+    box-shadow: 0 10px 20px #ccf1e6;
+    background-color: #dbfff4;
+  }
+
+  &__btnDis:hover {
+    box-shadow: 0 10px 20px #edd9df;
+    background-color: #ffe7ef;
+  }
+
+  &__img {
+    height: 1.9rem;
+    width: 1.9rem;
+  }
 }
