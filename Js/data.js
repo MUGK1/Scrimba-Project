@@ -7,7 +7,7 @@ const dogs = {
     hasBeenSwiped: false,
     hasBeenLiked: false,
   },
-  Bella: {
+  bella: {
     name: "Bella",
     avatar: "images/dog-bella.jpg",
     age: 43,
@@ -15,7 +15,7 @@ const dogs = {
     hasBeenSwiped: false,
     hasBeenLiked: false,
   },
-  Teddy: {
+  teddy: {
     name: "Teddy",
     avatar: "images/dog-teddy.jpg",
     age: 30,

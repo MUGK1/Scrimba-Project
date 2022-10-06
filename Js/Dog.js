@@ -6,13 +6,19 @@ class Posters {
   }
 
   getPosterHTML() {
-    const { name, avatar, age, bio } = this;
+    const { name, avatar, age, bio, hasBeenLiked, hasBeenSwiped } = this;
     return `
     <div class="mainContent">
         <img
-        src="images/badge-like.png"
+        src="${
+          hasBeenLiked && hasBeenSwiped
+            ? "images/badge-like.png"
+            : "images/badge-nope.png"
+        }"
         alt="Like Stamp"
-        class="mainContent__stamp none"
+        class="mainContent__stamp ${
+          hasBeenLiked || hasBeenSwiped ? "" : "none"
+        }"
         />
         <img
         src="${avatar}"
@@ -22,6 +28,13 @@ class Posters {
         <h1 class="mainContent__header">${name}, ${age}</h1>
         <p class="mainContent__para">${bio}</p>
     </div> `;
+  }
+
+  ChangeStatus(boolean) {
+    this.hasBeenLiked = boolean;
+    this.hasBeenSwiped = true;
+    console.log(this.hasBeenLiked);
+    return this.getPosterHTML();
   }
 }
 

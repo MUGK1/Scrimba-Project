@@ -5,15 +5,46 @@ import dogs from "./data.js";
 const btnLike = document.getElementById("like");
 const btnDis = document.getElementById("dis");
 const posters = document.getElementById("mainContent");
+let dogsData = ["rex", "bella", "teddy"];
+let isWaiting = false;
 
-const rexDog = new Posters(dogs.rex);
-const bellaDog = new Posters(dogs.Bella);
-const teddyDog = new Posters(dogs.Teddy);
-
-function render() {
-  posters.innerHTML = bellaDog.getPosterHTML();
+function getNewDogPoster() {
+  const nextDogPoster = dogs[dogsData.shift()];
+  console.log(nextDogPoster);
+  return nextDogPoster ? new Posters(nextDogPoster) : {};
 }
 
-btnLike.addEventListener("click", function () {
-  render();
+function btnChoose(which) {
+  posters.innerHTML = dogPosters.ChangeStatus(which);
+  if (!isWaiting) {
+    isWaiting = true;
+    if (dogsData.length > 0) {
+      setTimeout(() => {
+        dogPosters = getNewDogPoster();
+        render();
+        isWaiting = false;
+      }, 1100);
+    } else {
+      dogsData = ["rex", "bella", "teddy"];
+      isWaiting = true;
+      setTimeout(() => {
+        dogPosters = getNewDogPoster();
+        render();
+        isWaiting = false;
+      }, 1100);
+    }
+  }
+}
+
+function render() {
+  posters.innerHTML = dogPosters.getPosterHTML();
+}
+
+let dogPosters = getNewDogPoster();
+btnLike.addEventListener("click", () => {
+  btnChoose(true);
 });
+btnDis.addEventListener("click", () => {
+  btnChoose(false);
+});
+render();
