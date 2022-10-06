@@ -2,9 +2,10 @@
 
 ## About the App
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta nisi alias ut hic, qui debitis enim deleniti quibusdam eaque! Magnam eius nulla quia sed alias quae facere sequi officia!
+The App is created for an Advanced JavaScript Practice you can use the link below to try out the app and give me an advice
+to improve it. In General, the App is to show the dogs picture and you choose weather you like it or not.
 
-- [The App Site (Not Working Under Development)](https://scrimba.com/allcourses)
+- [The App Site (Not Working Under Development)](https://mugk1.github.io/Scrimba-Project/)
 
 ## About Scrimba
 
