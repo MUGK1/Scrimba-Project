@@ -1,11 +1,13 @@
-# Scrimba Solo Project (Under Development)
+# Scrimba Solo Project
+
+![Site Picture](images/Solo-Project-Image.png)
 
 ## About the App
 
 The App is created for an Advanced JavaScript Practice you can use the link below to try out the app and give me an advice
 to improve it. In General, the App is to show the dogs picture and you choose weather you like it or not.
 
-- [The App Site (Not Working Under Development)](https://mugk1.github.io/Scrimba-Project/)
+- [The App Site ](https://mugk1.github.io/Scrimba-Project/)
 
 ## About Scrimba
 
